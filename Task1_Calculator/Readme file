@@ -1,0 +1,33 @@
+# Level 2 - Task 1: Calculator
+
+## Project Title
+Simple Web Calculator
+
+## Objective
+The objective of this project is to design a simple calculator that performs basic arithmetic operations using HTML, CSS, and JavaScript.
+
+## Technologies Used
+- HTML
+- CSS
+- JavaScript
+
+## Description
+This project is a web-based calculator that allows users to perform basic arithmetic calculations such as addition, subtraction, multiplication, and division. The interface is designed to be simple and user-friendly.
+
+## Features
+- Addition
+- Subtraction
+- Multiplication
+- Division
+- Clear display function
+
+## Screenshots
+
+### Calculator Interface
+<img width="970" height="804" alt="Calculator Screenshot 1" src="https://github.com/user-attachments/assets/7d37f7b0-71a4-4607-9021-648ff97f0ed8" />
+
+### Calculator Operation Example
+<img width="967" height="826" alt="Calculator Screenshot 2" src="https://github.com/user-attachments/assets/67fd374f-469c-494f-b096-1a2026ec00a0" />
+
+## Outcome
+Successfully developed a functional calculator as part of the Oasis Infobyte Web Development Internship.
