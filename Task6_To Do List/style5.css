@@ -1,0 +1,106 @@
+/* General body styling */
+body {
+    font-family: Arial, sans-serif;
+    background: #f5f9ff;
+    margin: 0;
+    text-align: center;
+}
+
+/* Page header */
+h1 {
+    background: #e6f0ff;
+    color: #333;
+    padding: 15px;
+    margin: 0;
+}
+
+/* Container for form + tasks */
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 30px;
+    width: 90%;
+    margin: 30px auto;
+}
+
+/* Form styling */
+.form {
+    background: white;
+    padding: 20px;
+    width: 350px;
+    border-radius: 8px;
+    box-shadow: 0 0 8px rgba(0,0,0,0.08);
+}
+
+/* Input fields and textarea */
+input, textarea {
+    width: 90%;
+    padding: 8px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+/* Button styling */
+button {
+    padding: 8px 12px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.add {
+    background: #bcdcff;
+}
+
+/* Tasks section */
+.tasks {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 50%;
+}
+
+/* Section (Pending / Completed) boxes */
+.section {
+    background: white;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 0 8px rgba(0,0,0,0.08);
+    max-height: 500px; /* scrollable if too many tasks */
+    overflow-y: auto;
+}
+
+/* Individual task inner box */
+.task {
+    background: #f0f8ff; /* subtle light-blue inside each task */
+    border-radius: 8px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    word-break: break-word;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1); /* soft shadow to pop out */
+}
+
+/* Buttons container remains centered */
+.task-buttons {
+    display: flex; /* horizontal layout */
+    justify-content: center; /* center horizontally */
+    gap: 10px; /* space between buttons */
+    margin-top: 5px;
+}
+
+/* Individual button colors */
+.delete {
+    background: #ffd6d6;
+}
+
+.update {
+    background: #fff2cc;
+}
+
+.complete {
+    background: #d4f4dd;
+}
